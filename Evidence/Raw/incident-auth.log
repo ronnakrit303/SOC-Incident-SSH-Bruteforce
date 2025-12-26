@@ -1,0 +1,496 @@
+2025-12-23T23:36:15.171438+00:00 localhost systemd-logind[925]: New seat seat0.
+2025-12-23T23:36:15.171441+00:00 localhost systemd-logind[925]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-12-23T23:36:15.171444+00:00 localhost systemd-logind[925]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-12-23T23:36:15.171450+00:00 localhost systemd-logind[925]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-12-23T23:36:15.171518+00:00 localhost polkitd[888]: Loading rules from directory /etc/polkit-1/rules.d
+2025-12-23T23:36:15.171528+00:00 localhost polkitd[888]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-12-23T23:36:15.215756+00:00 localhost polkitd[888]: Finished loading, compiling and executing 16 rules
+2025-12-23T23:36:15.224320+00:00 localhost polkitd[888]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-12-23T23:36:18.269572+00:00 localhost passwd[1306]: password for 'root' changed by 'root'
+2025-12-23T23:36:18.302436+00:00 localhost groupadd[1314]: group added to /etc/group: name=ubuntu, GID=1000
+2025-12-23T23:36:18.308901+00:00 localhost groupadd[1314]: group added to /etc/gshadow: name=ubuntu
+2025-12-23T23:36:18.311275+00:00 localhost groupadd[1314]: new group: name=ubuntu, GID=1000
+2025-12-23T23:36:18.370289+00:00 localhost useradd[1320]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+2025-12-23T23:36:18.371490+00:00 localhost useradd[1320]: add 'ubuntu' to group 'sudo'
+2025-12-23T23:36:18.371671+00:00 localhost useradd[1320]: add 'ubuntu' to shadow group 'sudo'
+2025-12-23T23:36:18.475987+00:00 localhost passwd[1332]: password for 'ubuntu' changed by 'root'
+2025-12-23T23:37:15.750595+00:00 localhost gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-12-23T23:37:15.794181+00:00 localhost systemd-logind[925]: New session c1 of user gdm.
+2025-12-23T23:37:15.827119+00:00 localhost (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-12-23T23:37:19.613434+00:00 localhost polkitd[888]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-23T23:37:56.632283+00:00 localhost gdm-password]: gkr-pam: unable to locate daemon control file
+2025-12-23T23:37:56.632448+00:00 localhost gdm-password]: gkr-pam: stashed password to try later in open session
+2025-12-23T23:37:56.655150+00:00 localhost gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-23T23:37:56.675815+00:00 localhost systemd-logind[925]: New session 2 of user ubuntu.
+2025-12-23T23:37:56.714374+00:00 localhost (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-23T23:37:57.080037+00:00 localhost gdm-password]: gkr-pam: unlocked login keyring
+2025-12-23T23:37:57.856104+00:00 localhost gnome-keyring-daemon[2614]: discover_other_daemon: 1
+2025-12-23T23:37:57.861738+00:00 localhost gnome-keyring-daemon[2337]: The Secret Service was already initialized
+2025-12-23T23:37:57.864186+00:00 localhost gnome-keyring-daemon[2622]: discover_other_daemon: 1
+2025-12-23T23:37:57.865493+00:00 localhost gnome-keyring-daemon[2337]: The PKCS#11 component was already initialized
+2025-12-23T23:37:57.867994+00:00 localhost gnome-keyring-daemon[2624]: discover_other_daemon: 1
+2025-12-23T23:38:00.004622+00:00 localhost polkitd[888]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-23T23:38:00.831320+00:00 localhost gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-12-23T23:38:00.852250+00:00 localhost systemd-logind[925]: Session c1 logged out. Waiting for processes to exit.
+2025-12-23T23:38:00.880850+00:00 localhost polkitd[888]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-12-23T23:38:00.898288+00:00 localhost systemd-logind[925]: Removed session c1.
+2025-12-23T23:40:53.361645+00:00 ubuntu systemd-logind[791]: New seat seat0.
+2025-12-23T23:40:53.361648+00:00 ubuntu systemd-logind[791]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-12-23T23:40:53.361651+00:00 ubuntu systemd-logind[791]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-12-23T23:40:53.361654+00:00 ubuntu systemd-logind[791]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-12-23T23:40:53.444968+00:00 ubuntu polkitd[741]: Loading rules from directory /etc/polkit-1/rules.d
+2025-12-23T23:40:53.460981+00:00 ubuntu polkitd[741]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-12-23T23:40:53.523880+00:00 ubuntu polkitd[741]: Finished loading, compiling and executing 16 rules
+2025-12-23T23:40:53.527310+00:00 ubuntu polkitd[741]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-12-23T23:40:55.263969+00:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-12-23T23:40:55.299832+00:00 ubuntu systemd-logind[791]: New session c1 of user gdm.
+2025-12-23T23:40:55.332833+00:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-12-23T23:40:59.085063+00:00 ubuntu polkitd[741]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-23T23:41:36.492614+00:00 ubuntu gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=ubuntu
+2025-12-23T23:41:42.792663+00:00 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+2025-12-23T23:41:42.793607+00:00 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+2025-12-23T23:41:42.802951+00:00 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-23T23:41:42.819419+00:00 ubuntu systemd-logind[791]: New session 2 of user ubuntu.
+2025-12-23T23:41:42.853124+00:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-23T23:41:43.181446+00:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-12-23T23:41:43.774079+00:00 ubuntu gnome-keyring-daemon[1864]: discover_other_daemon: 1
+2025-12-23T23:41:43.777084+00:00 ubuntu gnome-keyring-daemon[1665]: The PKCS#11 component was already initialized
+2025-12-23T23:41:43.777177+00:00 ubuntu gnome-keyring-daemon[1870]: discover_other_daemon: 1
+2025-12-23T23:41:43.780845+00:00 ubuntu gnome-keyring-daemon[1665]: The Secret Service was already initialized
+2025-12-23T23:41:43.780905+00:00 ubuntu gnome-keyring-daemon[1872]: discover_other_daemon: 1
+2025-12-23T23:41:45.848350+00:00 ubuntu polkitd[741]: Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-23T23:41:46.671147+00:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-12-23T23:41:46.682965+00:00 ubuntu systemd-logind[791]: Session c1 logged out. Waiting for processes to exit.
+2025-12-23T23:41:46.730468+00:00 ubuntu polkitd[741]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-12-23T23:41:46.742904+00:00 ubuntu systemd-logind[791]: Removed session c1.
+2025-12-23T23:45:01.096975+00:00 ubuntu CRON[2696]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-23T23:45:01.104013+00:00 ubuntu CRON[2696]: pam_unix(cron:session): session closed for user root
+2025-12-23T23:48:59.958028+00:00 ubuntu sudo: pam_unix(sudo:auth): authentication failure; logname=ubuntu uid=1000 euid=0 tty=/dev/pts/0 ruser=ubuntu rhost=  user=ubuntu
+2025-12-23T23:49:27.171664+00:00 ubuntu sudo:   ubuntu : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat auth.log
+2025-12-23T23:49:43.263366+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat auth.log
+2025-12-23T23:49:43.264974+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-23T23:49:43.271015+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-23T23:51:46.292152+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat auth.log
+2025-12-23T23:51:46.296590+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-23T23:51:46.299250+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-23T23:52:45.269715+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/su
+2025-12-23T23:52:45.270722+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-23T23:52:45.280217+00:00 ubuntu su[2795]: (to root) root on pts/1
+2025-12-23T23:52:45.280918+00:00 ubuntu su[2795]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2025-12-23T23:55:01.653374+00:00 ubuntu CRON[2824]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-23T23:55:01.658096+00:00 ubuntu CRON[2824]: pam_unix(cron:session): session closed for user root
+2025-12-23T23:56:53.073036+00:00 ubuntu su[2795]: pam_unix(su:session): session closed for user root
+2025-12-23T23:56:53.079838+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-23T23:59:01.674640+00:00 ubuntu CRON[2973]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-23T23:59:01.680001+00:00 ubuntu CRON[2973]: pam_unix(cron:session): session closed for user root
+2025-12-24T00:00:31.991219+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/su
+2025-12-24T00:00:31.991877+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:00:31.998080+00:00 ubuntu su[3210]: (to root) root on pts/1
+2025-12-24T00:00:31.998666+00:00 ubuntu su[3210]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2025-12-24T00:00:52.694485+00:00 ubuntu dbus-daemon[726]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-12-24T00:01:02.005342+00:00 ubuntu su[3231]: (to ubuntu) root on pts/1
+2025-12-24T00:01:02.009489+00:00 ubuntu su[3231]: pam_unix(su:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T00:01:41.446739+00:00 ubuntu su[3231]: pam_unix(su:session): session closed for user ubuntu
+2025-12-24T00:01:41.448026+00:00 ubuntu su[3210]: pam_unix(su:session): session closed for user root
+2025-12-24T00:01:41.450584+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T00:05:01.705281+00:00 ubuntu CRON[3420]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T00:05:01.710394+00:00 ubuntu CRON[3420]: pam_unix(cron:session): session closed for user root
+2025-12-24T00:05:59.995596+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get update
+2025-12-24T00:05:59.996614+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:06:02.957481+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T00:06:47.819145+00:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:06:47.820101+00:00 ubuntu pkexec[3729]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-12-24T00:15:01.721892+00:00 ubuntu CRON[4109]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T00:15:01.726967+00:00 ubuntu CRON[4109]: pam_unix(cron:session): session closed for user root
+2025-12-24T00:17:01.800579+00:00 ubuntu CRON[4154]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T00:17:01.809007+00:00 ubuntu CRON[4154]: pam_unix(cron:session): session closed for user root
+2025-12-24T00:33:24.494204+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/timedatectl set-timezone Asia/Bangkok
+2025-12-24T00:33:24.500668+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:33:24.567415+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T00:35:01.822371+00:00 ubuntu CRON[4206]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T00:35:01.827435+00:00 ubuntu CRON[4206]: pam_unix(cron:session): session closed for user root
+2025-12-24T00:40:06.993749+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2025-12-24T00:40:07.000222+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:40:07.018041+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T00:40:32.888732+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/apt update
+2025-12-24T00:40:32.889444+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:40:37.053412+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T00:41:30.215904+00:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:41:30.217018+00:00 ubuntu pkexec[4520]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-12-24T00:44:06.565382+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+2025-12-24T00:44:06.569647+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:44:18.648760+00:00 ubuntu useradd[4790]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2025-12-24T00:44:24.427075+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T00:44:29.689790+00:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:44:29.692844+00:00 ubuntu pkexec[5140]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-12-24T00:44:33.767694+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2025-12-24T00:44:33.768204+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:45:01.839638+00:00 ubuntu CRON[5152]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T00:45:01.845628+00:00 ubuntu CRON[5152]: pam_unix(cron:session): session closed for user root
+2025-12-24T00:46:14.711149+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T00:47:01.235133+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2025-12-24T00:47:01.236693+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:47:01.281337+00:00 ubuntu sshd[5162]: Server listening on 0.0.0.0 port 22.
+2025-12-24T00:47:01.281888+00:00 ubuntu sshd[5162]: Server listening on :: port 22.
+2025-12-24T00:47:01.285226+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T00:47:06.463077+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2025-12-24T00:47:06.466005+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:47:15.004584+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T00:47:32.344588+00:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/systemctl enable ssh
+2025-12-24T00:47:32.345635+00:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T00:47:33.318979+00:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T08:05:32.663653+07:00 ubuntu systemd-logind[737]: New seat seat0.
+2025-12-24T08:05:32.663656+07:00 ubuntu systemd-logind[737]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-12-24T08:05:32.663690+07:00 ubuntu systemd-logind[737]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-12-24T08:05:32.663695+07:00 ubuntu systemd-logind[737]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-12-24T08:05:32.663707+07:00 ubuntu polkitd[696]: Loading rules from directory /etc/polkit-1/rules.d
+2025-12-24T08:05:32.663743+07:00 ubuntu polkitd[696]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-12-24T08:05:32.663755+07:00 ubuntu polkitd[696]: Finished loading, compiling and executing 16 rules
+2025-12-24T08:05:32.663791+07:00 ubuntu polkitd[696]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-12-24T08:05:34.678016+07:00 ubuntu sshd[1051]: Server listening on 0.0.0.0 port 22.
+2025-12-24T08:05:34.684218+07:00 ubuntu sshd[1051]: Server listening on :: port 22.
+2025-12-24T08:05:34.924644+07:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-12-24T08:05:34.956335+07:00 ubuntu systemd-logind[737]: New session c1 of user gdm.
+2025-12-24T08:05:35.042034+07:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-12-24T08:05:39.503856+07:00 ubuntu polkitd[696]: Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-24T08:05:54.800470+07:00 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+2025-12-24T08:05:54.801005+07:00 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+2025-12-24T08:05:54.814420+07:00 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T08:05:54.836880+07:00 ubuntu systemd-logind[737]: New session 2 of user ubuntu.
+2025-12-24T08:05:54.874489+07:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T08:05:55.365600+07:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-12-24T08:05:56.077302+07:00 ubuntu gnome-keyring-daemon[1870]: discover_other_daemon: 1
+2025-12-24T08:05:56.077790+07:00 ubuntu gnome-keyring-daemon[1673]: The PKCS#11 component was already initialized
+2025-12-24T08:05:56.078400+07:00 ubuntu gnome-keyring-daemon[1876]: discover_other_daemon: 1
+2025-12-24T08:05:56.084751+07:00 ubuntu gnome-keyring-daemon[1673]: The Secret Service was already initialized
+2025-12-24T08:05:56.085366+07:00 ubuntu gnome-keyring-daemon[1877]: discover_other_daemon: 1
+2025-12-24T08:05:59.309024+07:00 ubuntu polkitd[696]: Registered Authentication Agent for unix-session:2 (system bus name :1.73 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-24T08:06:00.499100+07:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-12-24T08:06:00.545175+07:00 ubuntu polkitd[696]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.36, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-12-24T08:06:00.554933+07:00 ubuntu systemd-logind[737]: Session c1 logged out. Waiting for processes to exit.
+2025-12-24T08:06:00.653022+07:00 ubuntu systemd-logind[737]: Removed session c1.
+2025-12-24T08:06:10.998797+07:00 ubuntu (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-12-24T08:07:01.165542+07:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T08:07:01.168041+07:00 ubuntu pkexec[2732]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-12-24T08:17:41.439139+07:00 ubuntu systemd-logind[765]: New seat seat0.
+2025-12-24T08:17:41.439148+07:00 ubuntu systemd-logind[765]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-12-24T08:17:41.439152+07:00 ubuntu systemd-logind[765]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-12-24T08:17:41.439163+07:00 ubuntu systemd-logind[765]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-12-24T08:17:41.454309+07:00 ubuntu polkitd[709]: Loading rules from directory /etc/polkit-1/rules.d
+2025-12-24T08:17:41.457888+07:00 ubuntu polkitd[709]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-12-24T08:17:41.530225+07:00 ubuntu polkitd[709]: Finished loading, compiling and executing 16 rules
+2025-12-24T08:17:41.533032+07:00 ubuntu polkitd[709]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-12-24T08:17:43.258259+07:00 ubuntu sshd[1044]: Server listening on 0.0.0.0 port 22.
+2025-12-24T08:17:43.258317+07:00 ubuntu sshd[1044]: Server listening on :: port 22.
+2025-12-24T08:17:43.734735+07:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-12-24T08:17:43.756048+07:00 ubuntu systemd-logind[765]: New session c1 of user gdm.
+2025-12-24T08:17:43.835354+07:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-12-24T08:17:48.182443+07:00 ubuntu polkitd[709]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-24T08:18:09.812083+07:00 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+2025-12-24T08:18:09.812266+07:00 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+2025-12-24T08:18:09.829845+07:00 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T08:18:09.858300+07:00 ubuntu systemd-logind[765]: New session 2 of user ubuntu.
+2025-12-24T08:18:09.900961+07:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T08:18:10.332658+07:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-12-24T08:18:11.038734+07:00 ubuntu gnome-keyring-daemon[1686]: The PKCS#11 component was already initialized
+2025-12-24T08:18:11.039120+07:00 ubuntu gnome-keyring-daemon[1882]: discover_other_daemon: 1
+2025-12-24T08:18:11.039900+07:00 ubuntu gnome-keyring-daemon[1686]: The Secret Service was already initialized
+2025-12-24T08:18:11.042381+07:00 ubuntu gnome-keyring-daemon[1888]: discover_other_daemon: 1
+2025-12-24T08:18:11.043298+07:00 ubuntu gnome-keyring-daemon[1885]: discover_other_daemon: 1
+2025-12-24T08:18:14.440230+07:00 ubuntu polkitd[709]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-24T08:18:16.770513+07:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-12-24T08:18:16.809181+07:00 ubuntu polkitd[709]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-12-24T08:18:16.830845+07:00 ubuntu systemd-logind[765]: Session c1 logged out. Waiting for processes to exit.
+2025-12-24T08:18:16.847780+07:00 ubuntu systemd-logind[765]: Removed session c1.
+2025-12-24T08:18:27.199124+07:00 ubuntu (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-12-24T08:19:15.396643+07:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T08:19:15.398421+07:00 ubuntu pkexec[2700]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-12-24T08:25:01.740038+07:00 ubuntu CRON[2733]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T08:25:01.751097+07:00 ubuntu CRON[2733]: pam_unix(cron:session): session closed for user root
+2025-12-24T08:27:26.317359+07:00 ubuntu sshd[2736]: Accepted password for ubuntu from 192.168.56.102 port 40940 ssh2
+2025-12-24T08:27:26.321107+07:00 ubuntu sshd[2736]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T08:27:26.331518+07:00 ubuntu systemd-logind[765]: New session 5 of user ubuntu.
+2025-12-24T08:30:01.764508+07:00 ubuntu CRON[2930]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T08:30:01.768159+07:00 ubuntu CRON[2930]: pam_unix(cron:session): session closed for user root
+2025-12-24T08:34:27.339170+07:00 ubuntu sshd[2808]: Received disconnect from 192.168.56.102 port 40940:11: disconnected by user
+2025-12-24T08:34:27.345412+07:00 ubuntu sshd[2808]: Disconnected from user ubuntu 192.168.56.102 port 40940
+2025-12-24T08:34:27.346279+07:00 ubuntu sshd[2736]: pam_unix(sshd:session): session closed for user ubuntu
+2025-12-24T08:34:27.352957+07:00 ubuntu systemd-logind[765]: Session 5 logged out. Waiting for processes to exit.
+2025-12-24T08:34:27.361262+07:00 ubuntu systemd-logind[765]: Removed session 5.
+2025-12-24T08:35:01.790444+07:00 ubuntu CRON[3052]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T08:35:01.804207+07:00 ubuntu CRON[3052]: pam_unix(cron:session): session closed for user root
+2025-12-24T08:45:01.832178+07:00 ubuntu CRON[3090]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T08:45:01.843418+07:00 ubuntu CRON[3090]: pam_unix(cron:session): session closed for user root
+2025-12-24T08:55:01.853817+07:00 ubuntu CRON[3115]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T08:55:01.863294+07:00 ubuntu CRON[3115]: pam_unix(cron:session): session closed for user root
+2025-12-24T09:01:22.863002+07:00 ubuntu dbus-daemon[681]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-12-24T09:05:01.884293+07:00 ubuntu CRON[3285]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T09:05:01.894844+07:00 ubuntu CRON[3285]: pam_unix(cron:session): session closed for user root
+2025-12-24T09:15:01.921943+07:00 ubuntu CRON[3307]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T09:15:01.931234+07:00 ubuntu CRON[3307]: pam_unix(cron:session): session closed for user root
+2025-12-24T09:17:01.944203+07:00 ubuntu CRON[3310]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T09:17:01.959471+07:00 ubuntu CRON[3310]: pam_unix(cron:session): session closed for user root
+2025-12-24T09:18:33.149481+07:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-12-24T09:21:24.822453+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat auth.log
+2025-12-24T09:21:24.823294+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T09:21:24.845899+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T09:22:38.141233+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T09:22:38.142936+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T09:22:38.147843+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T09:22:45.652330+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T09:22:45.658081+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T09:22:45.659390+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T09:23:06.615496+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T09:23:06.615897+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T09:23:06.622164+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T09:25:01.971448+07:00 ubuntu CRON[3496]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T09:25:01.983211+07:00 ubuntu CRON[3496]: pam_unix(cron:session): session closed for user root
+2025-12-24T09:28:03.190920+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T09:28:03.196548+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T09:28:03.199404+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T09:30:01.999017+07:00 ubuntu CRON[3516]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T09:30:02.005436+07:00 ubuntu CRON[3516]: pam_unix(cron:session): session closed for user root
+2025-12-24T09:34:23.451014+07:00 ubuntu gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=ubuntu uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=ubuntu
+2025-12-24T09:34:30.223513+07:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-12-24T09:35:01.014469+07:00 ubuntu CRON[3649]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T09:35:01.020068+07:00 ubuntu CRON[3649]: pam_unix(cron:session): session closed for user root
+2025-12-24T10:22:15.946946+07:00 ubuntu systemd-logind[799]: New seat seat0.
+2025-12-24T10:22:15.946952+07:00 ubuntu systemd-logind[799]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-12-24T10:22:15.946955+07:00 ubuntu systemd-logind[799]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-12-24T10:22:15.946961+07:00 ubuntu systemd-logind[799]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-12-24T10:22:15.893429+07:00 ubuntu polkitd[748]: Loading rules from directory /etc/polkit-1/rules.d
+2025-12-24T10:22:15.899727+07:00 ubuntu polkitd[748]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-12-24T10:22:15.939324+07:00 ubuntu polkitd[748]: Finished loading, compiling and executing 16 rules
+2025-12-24T10:22:15.939398+07:00 ubuntu polkitd[748]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-12-24T10:22:18.027112+07:00 ubuntu sshd[1023]: Server listening on 0.0.0.0 port 22.
+2025-12-24T10:22:18.029714+07:00 ubuntu sshd[1023]: Server listening on :: port 22.
+2025-12-24T10:22:18.392173+07:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-12-24T10:22:18.453319+07:00 ubuntu systemd-logind[799]: New session c1 of user gdm.
+2025-12-24T10:22:18.513664+07:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-12-24T10:22:23.387246+07:00 ubuntu polkitd[748]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-24T10:25:03.948555+07:00 ubuntu CRON[1636]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T10:25:03.956867+07:00 ubuntu CRON[1636]: pam_unix(cron:session): session closed for user root
+2025-12-24T10:30:01.796433+07:00 ubuntu CRON[1657]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T10:30:01.803556+07:00 ubuntu CRON[1657]: pam_unix(cron:session): session closed for user root
+2025-12-24T10:34:48.692640+07:00 ubuntu dbus-daemon[727]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-12-24T10:35:01.900091+07:00 ubuntu CRON[1689]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T10:35:01.910468+07:00 ubuntu CRON[1689]: pam_unix(cron:session): session closed for user root
+2025-12-24T10:37:16.582815+07:00 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+2025-12-24T10:37:16.582918+07:00 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+2025-12-24T10:37:16.593245+07:00 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T10:37:16.606858+07:00 ubuntu systemd-logind[799]: New session 5 of user ubuntu.
+2025-12-24T10:37:16.669697+07:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T10:37:17.138496+07:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-12-24T10:37:17.871986+07:00 ubuntu gnome-keyring-daemon[1739]: The Secret Service was already initialized
+2025-12-24T10:37:17.872698+07:00 ubuntu gnome-keyring-daemon[1739]: The PKCS#11 component was already initialized
+2025-12-24T10:37:17.872785+07:00 ubuntu gnome-keyring-daemon[1935]: discover_other_daemon: 1
+2025-12-24T10:37:17.872808+07:00 ubuntu gnome-keyring-daemon[1930]: discover_other_daemon: 1
+2025-12-24T10:37:17.876907+07:00 ubuntu gnome-keyring-daemon[1933]: discover_other_daemon: 1
+2025-12-24T10:37:21.166615+07:00 ubuntu polkitd[748]: Registered Authentication Agent for unix-session:5 (system bus name :1.85 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-24T10:37:23.502459+07:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-12-24T10:37:23.545933+07:00 ubuntu systemd-logind[799]: Session c1 logged out. Waiting for processes to exit.
+2025-12-24T10:37:23.615590+07:00 ubuntu polkitd[748]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-12-24T10:37:23.624874+07:00 ubuntu systemd-logind[799]: Removed session c1.
+2025-12-24T10:37:33.978315+07:00 ubuntu (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-12-24T10:38:24.459390+07:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T10:38:24.463032+07:00 ubuntu pkexec[2774]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-12-24T10:44:21.590777+07:00 ubuntu sshd[2802]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.102  user=ubuntu
+2025-12-24T10:44:23.879998+07:00 ubuntu sshd[2802]: Failed password for ubuntu from 192.168.56.102 port 39212 ssh2
+2025-12-24T10:44:47.254084+07:00 ubuntu sshd[2802]: message repeated 2 times: [ Failed password for ubuntu from 192.168.56.102 port 39212 ssh2]
+2025-12-24T10:44:50.578855+07:00 ubuntu sshd[2802]: Connection closed by authenticating user ubuntu 192.168.56.102 port 39212 [preauth]
+2025-12-24T10:44:50.579192+07:00 ubuntu sshd[2802]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.102  user=ubuntu
+2025-12-24T10:45:01.740479+07:00 ubuntu CRON[2804]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T10:45:01.750683+07:00 ubuntu CRON[2804]: pam_unix(cron:session): session closed for user root
+2025-12-24T10:48:51.237249+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2025-12-24T10:48:51.240824+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T10:48:57.156718+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T10:49:56.125536+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T10:49:56.126710+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T10:49:56.132781+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T10:55:01.805936+07:00 ubuntu CRON[2844]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T10:55:01.813759+07:00 ubuntu CRON[2844]: pam_unix(cron:session): session closed for user root
+2025-12-24T11:05:02.516036+07:00 ubuntu CRON[2876]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T11:05:02.524979+07:00 ubuntu CRON[2876]: pam_unix(cron:session): session closed for user root
+2025-12-24T11:10:11.464286+07:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-12-24T11:15:01.879609+07:00 ubuntu CRON[2993]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T11:15:01.889697+07:00 ubuntu CRON[2993]: pam_unix(cron:session): session closed for user root
+2025-12-24T11:17:01.125095+07:00 ubuntu CRON[3006]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T11:17:01.135682+07:00 ubuntu CRON[3006]: pam_unix(cron:session): session closed for user root
+2025-12-24T11:25:01.378483+07:00 ubuntu CRON[3029]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T11:25:01.385024+07:00 ubuntu CRON[3029]: pam_unix(cron:session): session closed for user root
+2025-12-24T11:27:03.695648+07:00 ubuntu sshd[3065]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.102  user=ubuntu
+2025-12-24T11:27:05.620460+07:00 ubuntu sshd[3065]: Failed password for ubuntu from 192.168.56.102 port 47378 ssh2
+2025-12-24T11:27:12.221529+07:00 ubuntu sshd[3065]: message repeated 2 times: [ Failed password for ubuntu from 192.168.56.102 port 47378 ssh2]
+2025-12-24T11:27:12.231085+07:00 ubuntu sshd[3065]: Connection closed by authenticating user ubuntu 192.168.56.102 port 47378 [preauth]
+2025-12-24T11:27:17.514484+07:00 ubuntu sshd[3067]: Failed password for ubuntu from 192.168.56.102 port 44420 ssh2
+2025-12-24T11:27:17.669961+07:00 ubuntu sshd[3067]: Failed password for ubuntu from 192.168.56.102 port 44420 ssh2
+2025-12-24T11:27:17.721523+07:00 ubuntu sshd[3067]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44420 [preauth]
+2025-12-24T11:27:19.145712+07:00 ubuntu sshd[3074]: Failed password for ubuntu from 192.168.56.102 port 44430 ssh2
+2025-12-24T11:27:19.735926+07:00 ubuntu sshd[3074]: Failed password for ubuntu from 192.168.56.102 port 44430 ssh2
+2025-12-24T11:27:19.902429+07:00 ubuntu sshd[3074]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44430 [preauth]
+2025-12-24T11:27:20.893166+07:00 ubuntu sshd[3076]: Failed password for ubuntu from 192.168.56.102 port 44440 ssh2
+2025-12-24T11:27:21.026221+07:00 ubuntu sshd[3076]: Failed password for ubuntu from 192.168.56.102 port 44440 ssh2
+2025-12-24T11:27:21.038242+07:00 ubuntu sshd[3076]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44440 [preauth]
+2025-12-24T11:27:21.997591+07:00 ubuntu sshd[3078]: Failed password for ubuntu from 192.168.56.102 port 44448 ssh2
+2025-12-24T11:27:22.255833+07:00 ubuntu sshd[3078]: Failed password for ubuntu from 192.168.56.102 port 44448 ssh2
+2025-12-24T11:27:22.264818+07:00 ubuntu sshd[3078]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44448 [preauth]
+2025-12-24T11:27:23.429628+07:00 ubuntu sshd[3080]: Failed password for ubuntu from 192.168.56.102 port 44450 ssh2
+2025-12-24T11:27:23.564501+07:00 ubuntu sshd[3080]: Failed password for ubuntu from 192.168.56.102 port 44450 ssh2
+2025-12-24T11:27:23.575367+07:00 ubuntu sshd[3080]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44450 [preauth]
+2025-12-24T11:27:24.760899+07:00 ubuntu sshd[3082]: Failed password for ubuntu from 192.168.56.102 port 44460 ssh2
+2025-12-24T11:27:25.200900+07:00 ubuntu sshd[3082]: Failed password for ubuntu from 192.168.56.102 port 44460 ssh2
+2025-12-24T11:27:25.211181+07:00 ubuntu sshd[3082]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44460 [preauth]
+2025-12-24T11:27:26.611162+07:00 ubuntu sshd[3084]: Failed password for ubuntu from 192.168.56.102 port 42082 ssh2
+2025-12-24T11:27:26.776692+07:00 ubuntu sshd[3084]: Failed password for ubuntu from 192.168.56.102 port 42082 ssh2
+2025-12-24T11:27:26.785773+07:00 ubuntu sshd[3084]: Connection closed by authenticating user ubuntu 192.168.56.102 port 42082 [preauth]
+2025-12-24T11:27:27.931886+07:00 ubuntu sshd[3086]: Failed password for ubuntu from 192.168.56.102 port 42098 ssh2
+2025-12-24T11:27:28.063076+07:00 ubuntu sshd[3086]: Failed password for ubuntu from 192.168.56.102 port 42098 ssh2
+2025-12-24T11:27:28.073552+07:00 ubuntu sshd[3086]: Connection closed by authenticating user ubuntu 192.168.56.102 port 42098 [preauth]
+2025-12-24T11:27:29.181477+07:00 ubuntu sshd[3089]: Failed password for ubuntu from 192.168.56.102 port 42106 ssh2
+2025-12-24T11:27:29.338327+07:00 ubuntu sshd[3089]: Failed password for ubuntu from 192.168.56.102 port 42106 ssh2
+2025-12-24T11:27:29.350328+07:00 ubuntu sshd[3089]: Connection closed by authenticating user ubuntu 192.168.56.102 port 42106 [preauth]
+2025-12-24T11:27:30.448288+07:00 ubuntu sshd[3091]: Failed password for ubuntu from 192.168.56.102 port 42108 ssh2
+2025-12-24T11:27:30.585418+07:00 ubuntu sshd[3091]: Failed password for ubuntu from 192.168.56.102 port 42108 ssh2
+2025-12-24T11:27:30.594987+07:00 ubuntu sshd[3091]: Connection closed by authenticating user ubuntu 192.168.56.102 port 42108 [preauth]
+2025-12-24T11:27:44.942326+07:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-12-24T11:28:22.565101+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T11:28:22.566957+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T11:28:22.571698+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+                                                                                                                                                                                                                                        2025-12-24T18:36:17.340914+07:00 ubuntu systemd-logind[744]: New seat seat0.
+2025-12-24T18:36:17.340922+07:00 ubuntu systemd-logind[744]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-12-24T18:36:17.340925+07:00 ubuntu systemd-logind[744]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-12-24T18:36:17.340929+07:00 ubuntu systemd-logind[744]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-12-24T18:36:17.341019+07:00 ubuntu polkitd[701]: Loading rules from directory /etc/polkit-1/rules.d
+2025-12-24T18:36:17.186039+07:00 ubuntu polkitd[701]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-12-24T18:36:17.244172+07:00 ubuntu polkitd[701]: Finished loading, compiling and executing 16 rules
+2025-12-24T18:36:17.263042+07:00 ubuntu polkitd[701]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-12-24T18:36:19.250183+07:00 ubuntu sshd[1043]: Server listening on 0.0.0.0 port 22.
+2025-12-24T18:36:19.254373+07:00 ubuntu sshd[1043]: Server listening on :: port 22.
+2025-12-24T18:36:19.707153+07:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-12-24T18:36:19.759488+07:00 ubuntu systemd-logind[744]: New session c1 of user gdm.
+2025-12-24T18:36:19.818753+07:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-12-24T18:36:24.113870+07:00 ubuntu polkitd[701]: Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-24T18:38:05.919954+07:00 ubuntu systemd-logind[845]: New seat seat0.
+2025-12-24T18:38:05.919961+07:00 ubuntu systemd-logind[845]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-12-24T18:38:05.919995+07:00 ubuntu systemd-logind[845]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-12-24T18:38:05.920066+07:00 ubuntu systemd-logind[845]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-12-24T18:38:05.909898+07:00 ubuntu polkitd[819]: Loading rules from directory /etc/polkit-1/rules.d
+2025-12-24T18:38:05.909964+07:00 ubuntu polkitd[819]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-12-24T18:38:05.982760+07:00 ubuntu polkitd[819]: Finished loading, compiling and executing 16 rules
+2025-12-24T18:38:05.988074+07:00 ubuntu polkitd[819]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-12-24T18:38:08.058898+07:00 ubuntu sshd[1050]: Server listening on 0.0.0.0 port 22.
+2025-12-24T18:38:08.065006+07:00 ubuntu sshd[1050]: Server listening on :: port 22.
+2025-12-24T18:38:08.393297+07:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-12-24T18:38:08.470231+07:00 ubuntu systemd-logind[845]: New session c1 of user gdm.
+2025-12-24T18:38:08.559028+07:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-12-24T18:38:12.986617+07:00 ubuntu polkitd[819]: Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-24T18:39:30.186016+07:00 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+2025-12-24T18:39:30.186587+07:00 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+2025-12-24T18:39:30.206852+07:00 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T18:39:30.231656+07:00 ubuntu systemd-logind[845]: New session 2 of user ubuntu.
+2025-12-24T18:39:30.274487+07:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T18:39:30.662633+07:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2025-12-24T18:39:31.388954+07:00 ubuntu gnome-keyring-daemon[1898]: discover_other_daemon: 1
+2025-12-24T18:39:31.390493+07:00 ubuntu gnome-keyring-daemon[1695]: The Secret Service was already initialized
+2025-12-24T18:39:31.392686+07:00 ubuntu gnome-keyring-daemon[1902]: discover_other_daemon: 1
+2025-12-24T18:39:31.393990+07:00 ubuntu gnome-keyring-daemon[1695]: The PKCS#11 component was already initialized
+2025-12-24T18:39:31.394288+07:00 ubuntu gnome-keyring-daemon[1903]: discover_other_daemon: 1
+2025-12-24T18:39:34.479979+07:00 ubuntu polkitd[819]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-12-24T18:39:35.402011+07:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-12-24T18:39:35.437763+07:00 ubuntu systemd-logind[845]: Session c1 logged out. Waiting for processes to exit.
+2025-12-24T18:39:35.459160+07:00 ubuntu polkitd[819]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-12-24T18:39:35.478705+07:00 ubuntu systemd-logind[845]: Removed session c1.
+2025-12-24T18:39:45.823366+07:00 ubuntu (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-12-24T18:40:36.268568+07:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T18:40:36.270570+07:00 ubuntu pkexec[2785]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-12-24T18:43:08.131223+07:00 ubuntu sshd[2815]: Failed password for ubuntu from 192.168.56.102 port 35546 ssh2
+2025-12-24T18:43:08.277207+07:00 ubuntu sshd[2815]: Failed password for ubuntu from 192.168.56.102 port 35546 ssh2
+2025-12-24T18:43:08.286384+07:00 ubuntu sshd[2815]: Connection closed by authenticating user ubuntu 192.168.56.102 port 35546 [preauth]
+2025-12-24T18:43:10.892248+07:00 ubuntu sshd[2827]: Failed password for ubuntu from 192.168.56.102 port 35556 ssh2
+2025-12-24T18:43:11.025113+07:00 ubuntu sshd[2827]: Failed password for ubuntu from 192.168.56.102 port 35556 ssh2
+2025-12-24T18:43:11.172717+07:00 ubuntu sshd[2827]: Connection closed by authenticating user ubuntu 192.168.56.102 port 35556 [preauth]
+2025-12-24T18:43:12.449058+07:00 ubuntu sshd[2829]: Failed password for ubuntu from 192.168.56.102 port 46078 ssh2
+2025-12-24T18:43:12.576223+07:00 ubuntu sshd[2829]: Failed password for ubuntu from 192.168.56.102 port 46078 ssh2
+2025-12-24T18:43:12.585700+07:00 ubuntu sshd[2829]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46078 [preauth]
+2025-12-24T18:43:13.802103+07:00 ubuntu sshd[2831]: Failed password for ubuntu from 192.168.56.102 port 46090 ssh2
+2025-12-24T18:43:13.935570+07:00 ubuntu sshd[2831]: Failed password for ubuntu from 192.168.56.102 port 46090 ssh2
+2025-12-24T18:43:13.945034+07:00 ubuntu sshd[2831]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46090 [preauth]
+2025-12-24T18:43:15.144083+07:00 ubuntu sshd[2833]: Failed password for ubuntu from 192.168.56.102 port 46100 ssh2
+2025-12-24T18:43:15.280587+07:00 ubuntu sshd[2833]: Failed password for ubuntu from 192.168.56.102 port 46100 ssh2
+2025-12-24T18:43:15.290699+07:00 ubuntu sshd[2833]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46100 [preauth]
+2025-12-24T18:43:16.341663+07:00 ubuntu sshd[2835]: Failed password for ubuntu from 192.168.56.102 port 46110 ssh2
+2025-12-24T18:43:16.480437+07:00 ubuntu sshd[2835]: Failed password for ubuntu from 192.168.56.102 port 46110 ssh2
+2025-12-24T18:43:16.855599+07:00 ubuntu sshd[2835]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46110 [preauth]
+2025-12-24T18:43:17.545187+07:00 ubuntu sshd[2837]: Failed password for ubuntu from 192.168.56.102 port 46114 ssh2
+2025-12-24T18:43:17.681804+07:00 ubuntu sshd[2837]: Failed password for ubuntu from 192.168.56.102 port 46114 ssh2
+2025-12-24T18:43:17.693276+07:00 ubuntu sshd[2837]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46114 [preauth]
+2025-12-24T18:43:18.827200+07:00 ubuntu sshd[2840]: Failed password for ubuntu from 192.168.56.102 port 46118 ssh2
+2025-12-24T18:43:18.952864+07:00 ubuntu sshd[2840]: Failed password for ubuntu from 192.168.56.102 port 46118 ssh2
+2025-12-24T18:43:18.961941+07:00 ubuntu sshd[2840]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46118 [preauth]
+2025-12-24T18:43:20.053402+07:00 ubuntu sshd[2842]: Failed password for ubuntu from 192.168.56.102 port 46120 ssh2
+2025-12-24T18:43:20.197374+07:00 ubuntu sshd[2842]: Failed password for ubuntu from 192.168.56.102 port 46120 ssh2
+2025-12-24T18:43:20.261133+07:00 ubuntu sshd[2842]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46120 [preauth]
+2025-12-24T18:43:21.144511+07:00 ubuntu sshd[2844]: Failed password for ubuntu from 192.168.56.102 port 55252 ssh2
+2025-12-24T18:43:21.276630+07:00 ubuntu sshd[2844]: Failed password for ubuntu from 192.168.56.102 port 55252 ssh2
+2025-12-24T18:43:21.601213+07:00 ubuntu sshd[2844]: Connection closed by authenticating user ubuntu 192.168.56.102 port 55252 [preauth]
+2025-12-24T18:43:22.404926+07:00 ubuntu sshd[2846]: Failed password for ubuntu from 192.168.56.102 port 55254 ssh2
+2025-12-24T18:43:22.539820+07:00 ubuntu sshd[2846]: Failed password for ubuntu from 192.168.56.102 port 55254 ssh2
+2025-12-24T18:43:22.554142+07:00 ubuntu sshd[2846]: Connection closed by authenticating user ubuntu 192.168.56.102 port 55254 [preauth]
+2025-12-24T18:43:24.100017+07:00 ubuntu sshd[2848]: Failed password for ubuntu from 192.168.56.102 port 55258 ssh2
+2025-12-24T18:43:24.225720+07:00 ubuntu sshd[2848]: Failed password for ubuntu from 192.168.56.102 port 55258 ssh2
+2025-12-24T18:43:24.236015+07:00 ubuntu sshd[2848]: Connection closed by authenticating user ubuntu 192.168.56.102 port 55258 [preauth]
+2025-12-24T18:43:25.320662+07:00 ubuntu sshd[2850]: Failed password for ubuntu from 192.168.56.102 port 55272 ssh2
+2025-12-24T18:43:25.462988+07:00 ubuntu sshd[2850]: Failed password for ubuntu from 192.168.56.102 port 55272 ssh2
+2025-12-24T18:43:25.473022+07:00 ubuntu sshd[2850]: Connection closed by authenticating user ubuntu 192.168.56.102 port 55272 [preauth]
+2025-12-24T18:43:26.806226+07:00 ubuntu sshd[2852]: Failed password for ubuntu from 192.168.56.102 port 55288 ssh2
+2025-12-24T18:43:26.936073+07:00 ubuntu sshd[2852]: Failed password for ubuntu from 192.168.56.102 port 55288 ssh2
+2025-12-24T18:43:26.945063+07:00 ubuntu sshd[2852]: Connection closed by authenticating user ubuntu 192.168.56.102 port 55288 [preauth]
+2025-12-24T18:43:31.789829+07:00 ubuntu sshd[2854]: Accepted password for ubuntu from 192.168.56.102 port 55294 ssh2
+2025-12-24T18:43:31.795250+07:00 ubuntu sshd[2854]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T18:43:31.804522+07:00 ubuntu systemd-logind[845]: New session 4 of user ubuntu.
+2025-12-24T18:43:32.288598+07:00 ubuntu sshd[2919]: Received disconnect from 192.168.56.102 port 55294:11: disconnected by user
+2025-12-24T18:43:32.296093+07:00 ubuntu sshd[2919]: Disconnected from user ubuntu 192.168.56.102 port 55294
+2025-12-24T18:43:32.296556+07:00 ubuntu sshd[2854]: pam_unix(sshd:session): session closed for user ubuntu
+2025-12-24T18:43:32.306901+07:00 ubuntu systemd-logind[845]: Session 4 logged out. Waiting for processes to exit.
+2025-12-24T18:43:32.314418+07:00 ubuntu systemd-logind[845]: Removed session 4.
+2025-12-24T18:43:41.362757+07:00 ubuntu sshd[2941]: Accepted password for ubuntu from 192.168.56.102 port 54124 ssh2
+2025-12-24T18:43:41.368316+07:00 ubuntu sshd[2941]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T18:43:41.378765+07:00 ubuntu systemd-logind[845]: New session 5 of user ubuntu.
+2025-12-24T18:43:41.608464+07:00 ubuntu sshd[2986]: Received disconnect from 192.168.56.102 port 54124:11: disconnected by user
+2025-12-24T18:43:41.609555+07:00 ubuntu sshd[2986]: Disconnected from user ubuntu 192.168.56.102 port 54124
+2025-12-24T18:43:41.609766+07:00 ubuntu sshd[2941]: pam_unix(sshd:session): session closed for user ubuntu
+2025-12-24T18:43:41.623456+07:00 ubuntu systemd-logind[845]: Session 5 logged out. Waiting for processes to exit.
+2025-12-24T18:43:41.626458+07:00 ubuntu systemd-logind[845]: Removed session 5.
+2025-12-24T18:44:08.871328+07:00 ubuntu sshd[3002]: Accepted password for ubuntu from 192.168.56.102 port 54496 ssh2
+2025-12-24T18:44:08.874425+07:00 ubuntu sshd[3002]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T18:44:08.882114+07:00 ubuntu systemd-logind[845]: New session 6 of user ubuntu.
+2025-12-24T18:44:09.130868+07:00 ubuntu sshd[3047]: Received disconnect from 192.168.56.102 port 54496:11: disconnected by user
+2025-12-24T18:44:09.131122+07:00 ubuntu sshd[3047]: Disconnected from user ubuntu 192.168.56.102 port 54496
+2025-12-24T18:44:09.132382+07:00 ubuntu sshd[3002]: pam_unix(sshd:session): session closed for user ubuntu
+2025-12-24T18:44:09.143027+07:00 ubuntu systemd-logind[845]: Session 6 logged out. Waiting for processes to exit.
+2025-12-24T18:44:09.148870+07:00 ubuntu systemd-logind[845]: Removed session 6.
+2025-12-24T18:44:24.570693+07:00 ubuntu sshd[3066]: Accepted password for ubuntu from 192.168.56.102 port 51836 ssh2
+2025-12-24T18:44:24.575701+07:00 ubuntu sshd[3066]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T18:44:24.584127+07:00 ubuntu systemd-logind[845]: New session 7 of user ubuntu.
+2025-12-24T18:45:02.912289+07:00 ubuntu CRON[3123]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T18:45:02.917990+07:00 ubuntu CRON[3123]: pam_unix(cron:session): session closed for user root
+2025-12-24T18:46:42.784159+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T18:46:42.785581+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T18:46:42.793470+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T18:50:20.108822+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/grep -a sshd /var/log/auth.log
+2025-12-24T18:50:20.114194+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T18:50:20.114486+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T18:53:21.476528+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/ubuntu/Desktop/incident-auth.log
+2025-12-24T18:53:21.480919+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T18:53:21.487917+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T18:54:00.257950+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/ubuntu/Desktop/incident-auth.log
+2025-12-24T18:54:00.259137+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T18:54:00.281141+07:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2025-12-24T18:55:01.542872+07:00 ubuntu CRON[3383]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-12-24T18:55:01.548074+07:00 ubuntu CRON[3383]: pam_unix(cron:session): session closed for user root
+2025-12-24T18:55:02.546372+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/su
+2025-12-24T18:55:02.547535+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2025-12-24T18:55:02.557121+07:00 ubuntu su[3388]: (to root) root on pts/2
+2025-12-24T18:55:02.557364+07:00 ubuntu su[3388]: pam_unix(su:session): session opened for user root(uid=0) by ubuntu(uid=0)
+2025-12-24T18:55:07.761773+07:00 ubuntu sudo:     root : TTY=pts/2 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/ubuntu/Desktop/incident-auth.log
+2025-12-24T18:55:07.762829+07:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=0)

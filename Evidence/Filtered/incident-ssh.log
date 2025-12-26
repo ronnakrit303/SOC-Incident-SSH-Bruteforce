@@ -1,0 +1,124 @@
+2025-12-24T00:44:18.648760+00:00 ubuntu useradd[4790]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2025-12-24T00:47:01.281337+00:00 ubuntu sshd[5162]: Server listening on 0.0.0.0 port 22.
+2025-12-24T00:47:01.281888+00:00 ubuntu sshd[5162]: Server listening on :: port 22.
+2025-12-24T08:05:34.678016+07:00 ubuntu sshd[1051]: Server listening on 0.0.0.0 port 22.
+2025-12-24T08:05:34.684218+07:00 ubuntu sshd[1051]: Server listening on :: port 22.
+2025-12-24T08:17:43.258259+07:00 ubuntu sshd[1044]: Server listening on 0.0.0.0 port 22.
+2025-12-24T08:17:43.258317+07:00 ubuntu sshd[1044]: Server listening on :: port 22.
+2025-12-24T08:27:26.317359+07:00 ubuntu sshd[2736]: Accepted password for ubuntu from 192.168.56.102 port 40940 ssh2
+2025-12-24T08:27:26.321107+07:00 ubuntu sshd[2736]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T08:34:27.339170+07:00 ubuntu sshd[2808]: Received disconnect from 192.168.56.102 port 40940:11: disconnected by user
+2025-12-24T08:34:27.345412+07:00 ubuntu sshd[2808]: Disconnected from user ubuntu 192.168.56.102 port 40940
+2025-12-24T08:34:27.346279+07:00 ubuntu sshd[2736]: pam_unix(sshd:session): session closed for user ubuntu
+2025-12-24T09:22:38.141233+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T09:22:45.652330+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T09:23:06.615496+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T09:28:03.190920+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T10:22:18.027112+07:00 ubuntu sshd[1023]: Server listening on 0.0.0.0 port 22.
+2025-12-24T10:22:18.029714+07:00 ubuntu sshd[1023]: Server listening on :: port 22.
+2025-12-24T10:44:21.590777+07:00 ubuntu sshd[2802]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.102  user=ubuntu
+2025-12-24T10:44:23.879998+07:00 ubuntu sshd[2802]: Failed password for ubuntu from 192.168.56.102 port 39212 ssh2
+2025-12-24T10:44:47.254084+07:00 ubuntu sshd[2802]: message repeated 2 times: [ Failed password for ubuntu from 192.168.56.102 port 39212 ssh2]
+2025-12-24T10:44:50.578855+07:00 ubuntu sshd[2802]: Connection closed by authenticating user ubuntu 192.168.56.102 port 39212 [preauth]
+2025-12-24T10:44:50.579192+07:00 ubuntu sshd[2802]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.102  user=ubuntu
+2025-12-24T10:49:56.125536+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T11:27:03.695648+07:00 ubuntu sshd[3065]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.102  user=ubuntu
+2025-12-24T11:27:05.620460+07:00 ubuntu sshd[3065]: Failed password for ubuntu from 192.168.56.102 port 47378 ssh2
+2025-12-24T11:27:12.221529+07:00 ubuntu sshd[3065]: message repeated 2 times: [ Failed password for ubuntu from 192.168.56.102 port 47378 ssh2]
+2025-12-24T11:27:12.231085+07:00 ubuntu sshd[3065]: Connection closed by authenticating user ubuntu 192.168.56.102 port 47378 [preauth]
+2025-12-24T11:27:17.514484+07:00 ubuntu sshd[3067]: Failed password for ubuntu from 192.168.56.102 port 44420 ssh2
+2025-12-24T11:27:17.669961+07:00 ubuntu sshd[3067]: Failed password for ubuntu from 192.168.56.102 port 44420 ssh2
+2025-12-24T11:27:17.721523+07:00 ubuntu sshd[3067]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44420 [preauth]
+2025-12-24T11:27:19.145712+07:00 ubuntu sshd[3074]: Failed password for ubuntu from 192.168.56.102 port 44430 ssh2
+2025-12-24T11:27:19.735926+07:00 ubuntu sshd[3074]: Failed password for ubuntu from 192.168.56.102 port 44430 ssh2
+2025-12-24T11:27:19.902429+07:00 ubuntu sshd[3074]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44430 [preauth]
+2025-12-24T11:27:20.893166+07:00 ubuntu sshd[3076]: Failed password for ubuntu from 192.168.56.102 port 44440 ssh2
+2025-12-24T11:27:21.026221+07:00 ubuntu sshd[3076]: Failed password for ubuntu from 192.168.56.102 port 44440 ssh2
+2025-12-24T11:27:21.038242+07:00 ubuntu sshd[3076]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44440 [preauth]
+2025-12-24T11:27:21.997591+07:00 ubuntu sshd[3078]: Failed password for ubuntu from 192.168.56.102 port 44448 ssh2
+2025-12-24T11:27:22.255833+07:00 ubuntu sshd[3078]: Failed password for ubuntu from 192.168.56.102 port 44448 ssh2
+2025-12-24T11:27:22.264818+07:00 ubuntu sshd[3078]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44448 [preauth]
+2025-12-24T11:27:23.429628+07:00 ubuntu sshd[3080]: Failed password for ubuntu from 192.168.56.102 port 44450 ssh2
+2025-12-24T11:27:23.564501+07:00 ubuntu sshd[3080]: Failed password for ubuntu from 192.168.56.102 port 44450 ssh2
+2025-12-24T11:27:23.575367+07:00 ubuntu sshd[3080]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44450 [preauth]
+2025-12-24T11:27:24.760899+07:00 ubuntu sshd[3082]: Failed password for ubuntu from 192.168.56.102 port 44460 ssh2
+2025-12-24T11:27:25.200900+07:00 ubuntu sshd[3082]: Failed password for ubuntu from 192.168.56.102 port 44460 ssh2
+2025-12-24T11:27:25.211181+07:00 ubuntu sshd[3082]: Connection closed by authenticating user ubuntu 192.168.56.102 port 44460 [preauth]
+2025-12-24T11:27:26.611162+07:00 ubuntu sshd[3084]: Failed password for ubuntu from 192.168.56.102 port 42082 ssh2
+2025-12-24T11:27:26.776692+07:00 ubuntu sshd[3084]: Failed password for ubuntu from 192.168.56.102 port 42082 ssh2
+2025-12-24T11:27:26.785773+07:00 ubuntu sshd[3084]: Connection closed by authenticating user ubuntu 192.168.56.102 port 42082 [preauth]
+2025-12-24T11:27:27.931886+07:00 ubuntu sshd[3086]: Failed password for ubuntu from 192.168.56.102 port 42098 ssh2
+2025-12-24T11:27:28.063076+07:00 ubuntu sshd[3086]: Failed password for ubuntu from 192.168.56.102 port 42098 ssh2
+2025-12-24T11:27:28.073552+07:00 ubuntu sshd[3086]: Connection closed by authenticating user ubuntu 192.168.56.102 port 42098 [preauth]
+2025-12-24T11:27:29.181477+07:00 ubuntu sshd[3089]: Failed password for ubuntu from 192.168.56.102 port 42106 ssh2
+2025-12-24T11:27:29.338327+07:00 ubuntu sshd[3089]: Failed password for ubuntu from 192.168.56.102 port 42106 ssh2
+2025-12-24T11:27:29.350328+07:00 ubuntu sshd[3089]: Connection closed by authenticating user ubuntu 192.168.56.102 port 42106 [preauth]
+2025-12-24T11:27:30.448288+07:00 ubuntu sshd[3091]: Failed password for ubuntu from 192.168.56.102 port 42108 ssh2
+2025-12-24T11:27:30.585418+07:00 ubuntu sshd[3091]: Failed password for ubuntu from 192.168.56.102 port 42108 ssh2
+2025-12-24T11:27:30.594987+07:00 ubuntu sshd[3091]: Connection closed by authenticating user ubuntu 192.168.56.102 port 42108 [preauth]
+2025-12-24T11:28:22.565101+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T18:36:19.250183+07:00 ubuntu sshd[1043]: Server listening on 0.0.0.0 port 22.
+2025-12-24T18:36:19.254373+07:00 ubuntu sshd[1043]: Server listening on :: port 22.
+2025-12-24T18:38:08.058898+07:00 ubuntu sshd[1050]: Server listening on 0.0.0.0 port 22.
+2025-12-24T18:38:08.065006+07:00 ubuntu sshd[1050]: Server listening on :: port 22.
+2025-12-24T18:43:08.131223+07:00 ubuntu sshd[2815]: Failed password for ubuntu from 192.168.56.102 port 35546 ssh2
+2025-12-24T18:43:08.277207+07:00 ubuntu sshd[2815]: Failed password for ubuntu from 192.168.56.102 port 35546 ssh2
+2025-12-24T18:43:08.286384+07:00 ubuntu sshd[2815]: Connection closed by authenticating user ubuntu 192.168.56.102 port 35546 [preauth]
+2025-12-24T18:43:10.892248+07:00 ubuntu sshd[2827]: Failed password for ubuntu from 192.168.56.102 port 35556 ssh2
+2025-12-24T18:43:11.025113+07:00 ubuntu sshd[2827]: Failed password for ubuntu from 192.168.56.102 port 35556 ssh2
+2025-12-24T18:43:11.172717+07:00 ubuntu sshd[2827]: Connection closed by authenticating user ubuntu 192.168.56.102 port 35556 [preauth]
+2025-12-24T18:43:12.449058+07:00 ubuntu sshd[2829]: Failed password for ubuntu from 192.168.56.102 port 46078 ssh2
+2025-12-24T18:43:12.576223+07:00 ubuntu sshd[2829]: Failed password for ubuntu from 192.168.56.102 port 46078 ssh2
+2025-12-24T18:43:12.585700+07:00 ubuntu sshd[2829]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46078 [preauth]
+2025-12-24T18:43:13.802103+07:00 ubuntu sshd[2831]: Failed password for ubuntu from 192.168.56.102 port 46090 ssh2
+2025-12-24T18:43:13.935570+07:00 ubuntu sshd[2831]: Failed password for ubuntu from 192.168.56.102 port 46090 ssh2
+2025-12-24T18:43:13.945034+07:00 ubuntu sshd[2831]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46090 [preauth]
+2025-12-24T18:43:15.144083+07:00 ubuntu sshd[2833]: Failed password for ubuntu from 192.168.56.102 port 46100 ssh2
+2025-12-24T18:43:15.280587+07:00 ubuntu sshd[2833]: Failed password for ubuntu from 192.168.56.102 port 46100 ssh2
+2025-12-24T18:43:15.290699+07:00 ubuntu sshd[2833]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46100 [preauth]
+2025-12-24T18:43:16.341663+07:00 ubuntu sshd[2835]: Failed password for ubuntu from 192.168.56.102 port 46110 ssh2
+2025-12-24T18:43:16.480437+07:00 ubuntu sshd[2835]: Failed password for ubuntu from 192.168.56.102 port 46110 ssh2
+2025-12-24T18:43:16.855599+07:00 ubuntu sshd[2835]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46110 [preauth]
+2025-12-24T18:43:17.545187+07:00 ubuntu sshd[2837]: Failed password for ubuntu from 192.168.56.102 port 46114 ssh2
+2025-12-24T18:43:17.681804+07:00 ubuntu sshd[2837]: Failed password for ubuntu from 192.168.56.102 port 46114 ssh2
+2025-12-24T18:43:17.693276+07:00 ubuntu sshd[2837]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46114 [preauth]
+2025-12-24T18:43:18.827200+07:00 ubuntu sshd[2840]: Failed password for ubuntu from 192.168.56.102 port 46118 ssh2
+2025-12-24T18:43:18.952864+07:00 ubuntu sshd[2840]: Failed password for ubuntu from 192.168.56.102 port 46118 ssh2
+2025-12-24T18:43:18.961941+07:00 ubuntu sshd[2840]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46118 [preauth]
+2025-12-24T18:43:20.053402+07:00 ubuntu sshd[2842]: Failed password for ubuntu from 192.168.56.102 port 46120 ssh2
+2025-12-24T18:43:20.197374+07:00 ubuntu sshd[2842]: Failed password for ubuntu from 192.168.56.102 port 46120 ssh2
+2025-12-24T18:43:20.261133+07:00 ubuntu sshd[2842]: Connection closed by authenticating user ubuntu 192.168.56.102 port 46120 [preauth]
+2025-12-24T18:43:21.144511+07:00 ubuntu sshd[2844]: Failed password for ubuntu from 192.168.56.102 port 55252 ssh2
+2025-12-24T18:43:21.276630+07:00 ubuntu sshd[2844]: Failed password for ubuntu from 192.168.56.102 port 55252 ssh2
+2025-12-24T18:43:21.601213+07:00 ubuntu sshd[2844]: Connection closed by authenticating user ubuntu 192.168.56.102 port 55252 [preauth]
+2025-12-24T18:43:22.404926+07:00 ubuntu sshd[2846]: Failed password for ubuntu from 192.168.56.102 port 55254 ssh2
+2025-12-24T18:43:22.539820+07:00 ubuntu sshd[2846]: Failed password for ubuntu from 192.168.56.102 port 55254 ssh2
+2025-12-24T18:43:22.554142+07:00 ubuntu sshd[2846]: Connection closed by authenticating user ubuntu 192.168.56.102 port 55254 [preauth]
+2025-12-24T18:43:24.100017+07:00 ubuntu sshd[2848]: Failed password for ubuntu from 192.168.56.102 port 55258 ssh2
+2025-12-24T18:43:24.225720+07:00 ubuntu sshd[2848]: Failed password for ubuntu from 192.168.56.102 port 55258 ssh2
+2025-12-24T18:43:24.236015+07:00 ubuntu sshd[2848]: Connection closed by authenticating user ubuntu 192.168.56.102 port 55258 [preauth]
+2025-12-24T18:43:25.320662+07:00 ubuntu sshd[2850]: Failed password for ubuntu from 192.168.56.102 port 55272 ssh2
+2025-12-24T18:43:25.462988+07:00 ubuntu sshd[2850]: Failed password for ubuntu from 192.168.56.102 port 55272 ssh2
+2025-12-24T18:43:25.473022+07:00 ubuntu sshd[2850]: Connection closed by authenticating user ubuntu 192.168.56.102 port 55272 [preauth]
+2025-12-24T18:43:26.806226+07:00 ubuntu sshd[2852]: Failed password for ubuntu from 192.168.56.102 port 55288 ssh2
+2025-12-24T18:43:26.936073+07:00 ubuntu sshd[2852]: Failed password for ubuntu from 192.168.56.102 port 55288 ssh2
+2025-12-24T18:43:26.945063+07:00 ubuntu sshd[2852]: Connection closed by authenticating user ubuntu 192.168.56.102 port 55288 [preauth]
+2025-12-24T18:43:31.789829+07:00 ubuntu sshd[2854]: Accepted password for ubuntu from 192.168.56.102 port 55294 ssh2
+2025-12-24T18:43:31.795250+07:00 ubuntu sshd[2854]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T18:43:32.288598+07:00 ubuntu sshd[2919]: Received disconnect from 192.168.56.102 port 55294:11: disconnected by user
+2025-12-24T18:43:32.296093+07:00 ubuntu sshd[2919]: Disconnected from user ubuntu 192.168.56.102 port 55294
+2025-12-24T18:43:32.296556+07:00 ubuntu sshd[2854]: pam_unix(sshd:session): session closed for user ubuntu
+2025-12-24T18:43:41.362757+07:00 ubuntu sshd[2941]: Accepted password for ubuntu from 192.168.56.102 port 54124 ssh2
+2025-12-24T18:43:41.368316+07:00 ubuntu sshd[2941]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T18:43:41.608464+07:00 ubuntu sshd[2986]: Received disconnect from 192.168.56.102 port 54124:11: disconnected by user
+2025-12-24T18:43:41.609555+07:00 ubuntu sshd[2986]: Disconnected from user ubuntu 192.168.56.102 port 54124
+2025-12-24T18:43:41.609766+07:00 ubuntu sshd[2941]: pam_unix(sshd:session): session closed for user ubuntu
+2025-12-24T18:44:08.871328+07:00 ubuntu sshd[3002]: Accepted password for ubuntu from 192.168.56.102 port 54496 ssh2
+2025-12-24T18:44:08.874425+07:00 ubuntu sshd[3002]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T18:44:09.130868+07:00 ubuntu sshd[3047]: Received disconnect from 192.168.56.102 port 54496:11: disconnected by user
+2025-12-24T18:44:09.131122+07:00 ubuntu sshd[3047]: Disconnected from user ubuntu 192.168.56.102 port 54496
+2025-12-24T18:44:09.132382+07:00 ubuntu sshd[3002]: pam_unix(sshd:session): session closed for user ubuntu
+2025-12-24T18:44:24.570693+07:00 ubuntu sshd[3066]: Accepted password for ubuntu from 192.168.56.102 port 51836 ssh2
+2025-12-24T18:44:24.575701+07:00 ubuntu sshd[3066]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2025-12-24T18:46:42.784159+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2025-12-24T18:50:20.108822+07:00 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/bin/grep -a sshd /var/log/auth.log

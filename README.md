@@ -147,4 +147,4 @@ The report includes:
 I am currently learning and developing skills in cybersecurity and SOC analysis.  
 This project is part of my professional learning journey focused on Blue-Team practices, security monitoring, and incident response operations.
 
-If you have feedback or would like to connect — I’m always happy to learn more 
+If you have feedback or would like to connect -- I’m always happy to learn more 
